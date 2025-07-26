@@ -1,4 +1,4 @@
-
+#import necessary libraries
 import streamlit as st
 from streamlit_option_menu import option_menu
 from tensorflow.keras.models import load_model
@@ -6,6 +6,7 @@ from PIL import Image
 import numpy as np
 from tensorflow.keras.preprocessing.image import img_to_array
 
+#set page title
 st.title("MRI Image Classification")
 
 def load_model_once():
